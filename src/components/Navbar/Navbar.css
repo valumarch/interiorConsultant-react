@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora&family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{  
+    background-color: #181719;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    height: 80px;
+    padding: 0 2rem;
+}
+
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    font-family: "Crimson Pro", serif;
+    font-size: 14px;
+    line-height: 15.5px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+nav{
+    margin-right: -760px;
+}
+nav a{
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: underline 1px rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+    text-underline-offset: 0.5rem;
+}
+
+nav a:hover{
+    text-decoration-color: #fff;
+}
+
+.current{
+    text-decoration-color: #fff;
+    font-weight: bold;
+}
+
+.navBtn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1024px){
+    .navBtn{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav{
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color:#181719;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .active{
+        transform: none;
+        position: fixed;
+    }
+
+    nav .closeBtn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a{
+        font-size: 1.5rem;
+    }
+
+}
+
+
