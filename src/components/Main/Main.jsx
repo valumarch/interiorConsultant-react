@@ -11,10 +11,10 @@ const Main = () => {
             <a href="" className="link">Read more&nbsp;  →</a>
         </section>
         <section className="img">
-            <img src="../../public/img/photo1.png" alt="living room" />
-            <div className="name-card">
+            <img src="/img/photo1.png" alt="living room" className="living-room"/>
+            <div className="card">
                 <div className="name">
-                    <img src="../../public/img/photo2.png" alt="Aliza Webber" />
+                    <img src="/img/photo2.png" alt="Aliza Webber" />
                     <div>
                         <h6>Aliza Webber</h6>
                         <p>Interior designer</p>

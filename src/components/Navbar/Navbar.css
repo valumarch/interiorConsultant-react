@@ -30,7 +30,7 @@ header{
 }
 
 nav{
-    margin-right: -760px;
+    margin-right: -650px;
 }
 nav a{
     margin: 0 1rem;
@@ -38,6 +38,7 @@ nav a{
     text-decoration: underline 1px rgba(0, 0, 0, 0);
     transition: text-decoration-color 300ms;
     text-underline-offset: 0.5rem;
+    padding-left: 2rem;
 }
 
 nav a:hover{
