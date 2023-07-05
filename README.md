@@ -36,7 +36,8 @@
 
 ## Overview
 
-![screenshot]("/img/demo.png")
+
+![demo](https://github.com/valumarch/interiorConsultant-react/assets/107873153/024784ed-a410-4a84-82e6-a89c0559d35d)
 
 
 ### Built With
